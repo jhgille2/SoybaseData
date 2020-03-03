@@ -1,5 +1,5 @@
 # SoybaseData
-Formatted data from soybase  
+Formatted data from soybase & other helper tables for oil mapping populations 201 and 202
 
 **LinkageMap50k.csv**  
 Linkage map from the 50k SNP chip from the [Williams 82 x PI479752 (WP) population](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704267/)  
