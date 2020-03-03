@@ -17,6 +17,9 @@ Linkage map from the 6k SNP chip
 > Position.Glyma2:  
 > Genetic.position.cM: SNP position on the linkage map in cM  
 
+**SNPChip50KData.csv**  
+Extended data for SNPs from the 50K SNP chip. SNPs of the 6k chip are derived from the 50k chip.  
+
 **SoySNPConcensus_LPmerge.csv**  
 Concensus map created from the 50K and 6K linkage maps using the [LPmerge R package](https://academic.oup.com/bioinformatics/article/30/11/1623/284175)    
 > SNP: SNP Name  
