@@ -6,15 +6,15 @@ Linkage map from the 50k SNP chip
 
 **LinkageMap6K**  
 Linkage map from the 6k SNP chip  
-> Reference.SNP.ID.rs:
+> Reference.SNP.ID.rs:  
 > Submitted.SNP.ID.ss: 
-> SNPName.Glyma.Wm82.a1: 
-> SNPName.Glyma.Wm82.a1.short: 
-> SNPName.Glyma.Wm82.a2: 
+> SNPName.Glyma.Wm82.a1:  
+> SNPName.Glyma.Wm82.a1.short:  
+> SNPName.Glyma.Wm82.a2:  
 > SNPName.Glyma.Wm82.a2.short:  
-> Chromosome:
-> Position.Glyma1: 
-> Position.Glyma2: 
+> Chromosome:  
+> Position.Glyma1:  
+> Position.Glyma2:  
 > Genetic.position.cM: SNP position on the linkage map in cM  
 
 **SoySNPConcensus_LPmerge.csv**  
