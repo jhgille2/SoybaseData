@@ -24,6 +24,16 @@ Linkage map from the 6k SNP chip for a [Wyandot’ × PI 567301B population](htt
 > Position.Glyma2: SNP position in the Glyma2 assembly
 > Genetic.position.cM: SNP position on the linkage map in cM  
 
+**SNPChip50KData.csv**
+Various descriptive and positional data for 50K SNPs  
+> ss.ID: Submitted SNP ID
+> SNP.ID: SNP Name in the Glyma1 assembly  
+> Glyma1.01.Chromosome/Coordinate: Chromosome and BP position of the SNP in the Glyma1 assembly  
+> WM82.a2.v1.Chromosome/Coordinate: Chromosome and BP position of the SNP inthe Wm81.a2.v1 assembly  
+> Wm82.a2.v1.Gene.ID/Gene.Regions: Gene IDs for SNPs in the Wm82.a2.v1 assembly  
+> WP/EW.Linkage.Group/Linkage.Position: Genetic linkage group of the SNP in the Williams 82 x PI479752 (WP)/ Essex x Williams (EW) populations  
+
+
 **SNPChip50KMetaData.csv**  
 Various quality statistics for SNPS, used in the [development of the 50K SNP chip](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054985#).  
 > SNP.ID: SNP name  
@@ -37,11 +47,6 @@ Various quality statistics for SNPS, used in the [development of the 50K SNP chi
 > Polymorphism: Y/N indicator of polymrphism for a marker  
 > Position.in.gene: Posision in a gene (if available)  
 > MAF.Elite/G.Max/G.Soja/Landrace.Elite.and.G.Soja: MAF in elite, landrace, and wild soybean populations
-
-
-
-
-
 
 **SoySNPConcensus_LPmerge.csv**  
 Concensus map created from the 50K and 6K linkage maps using the [LPmerge R package](https://academic.oup.com/bioinformatics/article/30/11/1623/284175)    
