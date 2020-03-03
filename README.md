@@ -25,7 +25,7 @@ Linkage map from the 6k SNP chip for a [Wyandot’ × PI 567301B population](htt
 > Genetic.position.cM: SNP position on the linkage map in cM  
 
 **SNPChip50KData.csv**
-Various descriptive and positional data for 50K SNPs  
+Various descriptive and positional data for 50K SNPs from [two populations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704267/)   
 > ss.ID: Submitted SNP ID
 > SNP.ID: SNP Name in the Glyma1 assembly  
 > Glyma1.01.Chromosome/Coordinate: Chromosome and BP position of the SNP in the Glyma1 assembly  
