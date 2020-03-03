@@ -26,6 +26,22 @@ Linkage map from the 6k SNP chip for a [Wyandot’ × PI 567301B population](htt
 
 **SNPChip50KMetaData.csv**  
 Various quality statistics for SNPS, used in the [development of the 50K SNP chip](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054985#).  
+> SNP.ID: SNP name  
+> Chromosome: SNP chromosome  
+> Coordinate: BP Position within chromosome  
+> Williams.82.allele: Primary allele  
+> Alternative.allele: Alternative allele  
+> sequence.flanking.SNP_60bp: SNP flanking sequence
+> Bead.type.success.Y_N: Bead success? (Yes/no)
+> Priority.group/SNP.score/Index.score: SNP quality measures    
+> Polymorphism: Y/N indicator of polymrphism for a marker  
+> Position.in.gene: Posision in a gene (if available)  
+> MAF.Elite/G.Max/G.Soja/Landrace.Elite.and.G.Soja: MAF in elite, landrace, and wild soybean populations
+
+
+
+
+
 
 **SoySNPConcensus_LPmerge.csv**  
 Concensus map created from the 50K and 6K linkage maps using the [LPmerge R package](https://academic.oup.com/bioinformatics/article/30/11/1623/284175)    
