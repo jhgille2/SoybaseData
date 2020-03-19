@@ -22,7 +22,7 @@ SNPName_Short <- function(longNames){
 
 # A function whch returns the linkage group, given a SNP name (needs the 50K SNP data to work)
 # SNPnames should be in a short format ([Chromosome]_[Number])
-SNPName_ToLG <- function(SNPNames, SNP50KData = SNP50K){
+SNPName_ToLG_Reference <- function(SNPNames, SNP50KData = SNP50K){
   
   # Match short names to the short names in the 50K dataset, pull chromosome assignments for each marker
   ChrNames <- SNP50K$Glyma1.01.Chromosome[match(SNPNames, SNP50K$SNP.ID.Simple)]
@@ -32,12 +32,19 @@ SNPName_ToLG <- function(SNPNames, SNP50KData = SNP50K){
   LGNames
   
 }
+         
+# Extract chromosome number directly from SNP names
+SNPName_ToLG <- function(SNPNames){
+  Chr <- str_extract(SNPs, "Gm(\\d{2})")
+  Chr_num <- as.numeric(gsub("Gm", "", Chr))
+  Chr_num
+}
 
 # A function which takes as an argument a SNP matrix where the column names are markers, row names are
 # individuals, and outputs a dataframe ready for input into r/qtl (without positional data)
 Matrix_toRQTL_noPos <- function(SNPmatrix){
 
-  CHRNums   <- SNPName_ToLG(SNPName_Short(colnames(SNPmatrix)))
+  CHRNums   <- SNPName_ToLG(colnames(SNPmatrix))
   
   FirstRow  <- c("Ind", as.character(colnames(SNPmatrix)))
   SecondRow <- c("", as.character(CHRNums))
