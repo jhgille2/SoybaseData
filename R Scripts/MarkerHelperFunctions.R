@@ -35,7 +35,7 @@ SNPName_ToLG_Reference <- function(SNPNames, SNP50KData = SNP50K){
          
 # Extract chromosome number directly from SNP names
 SNPName_ToLG <- function(SNPNames){
-  Chr <- str_extract(SNPs, "Gm(\\d{2})")
+  Chr <- str_extract(SNPNames, "Gm(\\d{2})")
   Chr_num <- as.numeric(gsub("Gm", "", Chr))
   Chr_num
 }
@@ -43,8 +43,16 @@ SNPName_ToLG <- function(SNPNames){
 # A function which takes as an argument a SNP matrix where the column names are markers, row names are
 # individuals, and outputs a dataframe ready for input into r/qtl (without positional data)
 Matrix_toRQTL_noPos <- function(SNPmatrix){
-
+  
   CHRNums   <- SNPName_ToLG(colnames(SNPmatrix))
+  MarkPos   <- as.numeric(sapply(strsplit(colnames(SNPmatrix), "_"), function(x) x[[2]]))
+  
+  MarkOrd <- data.frame(SNPName = colnames(SNPmatrix), 
+                        SNPChr = CHRNums, 
+                        SNPPos = MarkPos)
+  MarkOrd <- MarkOrd %>% arrange(SNPChr, SNPPos)
+  
+  SNPmatrix <- SNPmatrix[, MarkOrd$SNPName]
   
   FirstRow  <- c("Ind", as.character(colnames(SNPmatrix)))
   SecondRow <- c("", as.character(CHRNums))
