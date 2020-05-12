@@ -63,3 +63,6 @@ File to convert between plant numbers and entries for oil mapping populations 20
 * Row: Entry  
 * Cross: Parent cross  
 * PlantNo: Plant number  
+
+**SoybaseQTL.csv**  
+Positions of QTL on the GM Composite genetic linkage map from soybase.
