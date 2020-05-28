@@ -66,3 +66,6 @@ File to convert between plant numbers and entries for oil mapping populations 20
 
 **SoybaseQTL.csv**  
 Positions of QTL on the GM Composite genetic linkage map from soybase.
+
+**ExpectedLGSizes.csv**  
+Expected LG sizes in cM from four linkage maps.  
