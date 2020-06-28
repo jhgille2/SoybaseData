@@ -71,4 +71,7 @@ Positions of QTL on the GM Composite genetic linkage map from soybase.
 Expected LG sizes in cM from four linkage maps.  
 
 **ConsensusMapWithPositions.csv**  
-SNP markers from the GM Consensus 4.0 map along with physical positions on the Wm82.a2 assembly.
+SNP markers from the GM Consensus 4.0 map along with physical positions on the Wm82.a2 assembly.  
+
+**SoybaseLGAssignments.csv**  
+LG names to chromosome number conversion table from SoyBase.  
