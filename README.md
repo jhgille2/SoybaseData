@@ -75,3 +75,6 @@ SNP markers from the GM Consensus 4.0 map along with physical positions on the W
 
 **SoybaseLGAssignments.csv**  
 LG names to chromosome number conversion table from SoyBase.  
+
+**sbSNPConversion.csv**  
+A table to convert the names of SNPs on the beadchip to dbSNP ids.  
