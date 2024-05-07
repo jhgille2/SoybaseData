@@ -73,6 +73,9 @@ Expected LG sizes in cM from four linkage maps.
 **ConsensusMapWithPositions.csv**  
 SNP markers from the GM Consensus 4.0 map along with physical positions on the Wm82.a2 assembly.  
 
+**Wm82.a4.v1_to_Correspondence_Full.csv**  
+Gene name lookup table to match gene names between v4 to v1 and v2 of the soybean genome. Downloaded from [this](https://soybase.org/correspondence/index.php) page on soybase.  
+
 **SoybaseLGAssignments.csv**  
 LG names to chromosome number conversion table from SoyBase.  
 
