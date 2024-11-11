@@ -81,3 +81,6 @@ LG names to chromosome number conversion table from SoyBase.
 
 **sbSNPConversion.csv**  
 A table to convert the names of SNPs on the beadchip to dbSNP ids.  
+
+**PI_to_common_name_conversion.csv**  
+PI numbers to common names from GRIN for many soybean accessions. File downloaded from [here](https://www.soybase.org/tools/gcvit/)
