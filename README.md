@@ -87,3 +87,6 @@ PI numbers to common names from GRIN for many soybean accessions. File downloade
 
 **snp_ab_conversion_6k.csv**  
 A table to convert SNP genotypes from the BARCSoySNP6K chip between forward and AB format.  
+
+**snp_ab_conversion_6k_clean.csv**  
+A cleaned up version of the table to convert SNP genotypes from the BARCSoySNP6K chip between forward and AB format.  
