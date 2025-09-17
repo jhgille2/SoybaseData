@@ -90,3 +90,6 @@ A table to convert SNP genotypes from the BARCSoySNP6K chip between forward and 
 
 **snp_ab_conversion_6k_clean.csv**  
 A cleaned up version of the table to convert SNP genotypes from the BARCSoySNP6K chip between forward and AB format.  
+
+**snp_6k_pos_information.csv**  
+A file with position and other snp ids added to the SNPs from the BARCSoySNP6K chip. Positions came from the **SNPChip50KData.csv** file.  
