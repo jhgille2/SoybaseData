@@ -93,3 +93,6 @@ A cleaned up version of the table to convert SNP genotypes from the BARCSoySNP6K
 
 **snp_6k_pos_information.csv**  
 A file with position and other snp ids added to the SNPs from the BARCSoySNP6K chip. Positions came from the **SNPChip50KData.csv** file.  
+
+**NAM_imputed_linkage_map.csv**  
+An imputed linkage map for the 50K markers that was used in [this publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC9110473/#_ad93_) and used for imputation software that reccomends/can use a linkage map to improve imputation accuracy.  
